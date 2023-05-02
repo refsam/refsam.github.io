@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #173b6c;
+  background: linear-gradient(180deg, #2083c9 0%, #3e6683 100%);
   overflow-y: auto;
 }
 #header .profile img {
@@ -456,6 +456,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  border-radius: 20px;
 }
 .portfolio #portfolio-flters {
   padding: 0;
@@ -487,6 +488,7 @@ section {
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
+  border-radius: 10px;
   overflow: hidden;
   z-index: 1;
 }
