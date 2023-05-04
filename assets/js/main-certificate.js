@@ -1,6 +1,6 @@
 /**
-* Template Name: iPortfolio - v3.7.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+* Template Name: icertificate - v3.7.0
+* Template URL: https://bootstrapmade.com/icertificate-bootstrap-certificate-websites-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -162,25 +162,25 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
+    let certificateContainer = select('.certificate-container');
+    if (certificateContainer) {
+      let certificateIsotope = new Isotope(certificateContainer, {
+        itemSelector: '.certificate-item'
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      let certificateFilters = select('#certificate-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#certificate-flters li', function(e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        certificateFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        portfolioIsotope.arrange({
+        certificateIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        portfolioIsotope.on('arrangeComplete', function() {
+        certificateIsotope.on('arrangeComplete', function() {
           AOS.refresh()
         });
       }, true);
@@ -191,16 +191,16 @@
   /*---*/
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate certificate lightbox 
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+  const certificateLightbox = GLightbox({
+    selector: '.certificate-lightbox'
   });
 
   /**
-   * Portfolio details slider
+   * certificate details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.certificate-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
