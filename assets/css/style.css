@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: linear-gradient(180deg, #2083c9 0%, #3e6683 100%);
+  background: linear-gradient(180deg, #88CAFA 0%, #579AFF 100%);
   overflow-y: auto;
 }
 #header .profile img {
