@@ -13,6 +13,7 @@ body {
   color: #272829;
 }
 
+<<<<<<< HEAD
 .section-title h2 {
       text-align: center;
       margin-bottom: 30px;
@@ -71,11 +72,14 @@ body {
       background: #c7c7c7;
       margin: 30px 0;
     }
+=======
+>>>>>>> 00fecf2e50e0fd06024c06682d446a72ab55aa14
 a {
   color: #579AFF;
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .course {
   display: flex;
   justify-content: space-between;
@@ -151,6 +155,8 @@ h3, h4 {
 }
 
 
+=======
+>>>>>>> 00fecf2e50e0fd06024c06682d446a72ab55aa14
 a:hover {
   color: #37b3ed;
   text-decoration: none;
@@ -203,7 +209,11 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
+<<<<<<< HEAD
   background: linear-gradient(180deg, #0b3a81 0%, #435FC0 100%);
+=======
+  background: linear-gradient(180deg, #579AFF 0%, #88CAFA 100%);
+>>>>>>> 00fecf2e50e0fd06024c06682d446a72ab55aa14
   overflow-y: auto;
 }
 #header .profile img {
@@ -211,6 +221,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
+<<<<<<< HEAD
   transition: transform 0.3s ease, opacity 0.3s ease; /* Menambahkan transisi */
 }
 
@@ -219,6 +230,9 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8; /* Mengubah opacity saat hover */
 }
 
+=======
+}
+>>>>>>> 00fecf2e50e0fd06024c06682d446a72ab55aa14
 #header .profile h1 {
   font-size: 24px;
   margin: 0;
