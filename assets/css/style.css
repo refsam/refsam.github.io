@@ -13,6 +13,43 @@ body {
   color: #272829;
 }
 
+.list{
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 0;
+}
+.sec {
+  display: inline-block;
+  position: relative;
+  text-align: center; 
+  color: white;
+  padding-top: 20px;
+  font-size: 16px; /* Ubah ukuran font sesuai kebutuhan */
+  text-decoration: none; /* Hapus underline default */
+  transition: color 0.3s ease;
+}
+
+.sec::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px; /* Jarak antara teks dan underline */
+  height: 2px; /* Tebal underline */
+  width: 0;
+  background: white; /* Warna underline */
+  transition: width 0.3s ease;
+}
+
+.sec:hover::after {
+  width: 100%;
+}
+
+.sec:hover {
+  color: #f0f0f0; /* Ubah warna teks saat hover jika perlu */
+}
+
+
+
 .section-title h2 {
       text-align: center;
       margin-bottom: 30px;
