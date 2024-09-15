@@ -169,6 +169,11 @@ a {
   border-bottom: none;
 }
 
+.arsi3{
+  height: 500px;
+  width: auto;
+}
+
 h3, h4 {
   color: #444;
 }
@@ -1122,6 +1127,10 @@ section {
     width: auto;
   }
   .arsi2{
+    width:300px;
+    height: auto;
+  }
+  .arsi3{
     width:300px;
     height: auto;
   }
