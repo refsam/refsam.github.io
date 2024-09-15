@@ -1116,6 +1116,11 @@ section {
   content: "/";
 }
 @media (max-width: 768px) {
+
+  .arsi{
+    height:100px;
+    width: auto;
+  }
   .breadcrumbs .d-flex {
     display: block !important;
   }
