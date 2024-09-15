@@ -40,6 +40,27 @@ body {
   transition: width 0.3s ease;
 }
 
+.sec2{
+  display: inline-block;
+  position: relative;
+  text-align: center; 
+  color: #3498db;
+  padding-top: 20px;
+  font-size: 16px; /* Ubah ukuran font sesuai kebutuhan */
+  text-decoration: none; /* Hapus underline default */
+  transition: color 0.3s ease;
+}
+
+.sec2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px; /* Jarak antara teks dan underline */
+  height: 2px; /* Tebal underline */
+  width: 0;
+  background: #0d4f7a; /* Warna underline */
+  transition: width 0.3s ease;
+}
 .sec:hover::after {
   width: 100%;
 }
@@ -98,6 +119,7 @@ body {
     
     .info span {
       color: #0b3a81;
+      font-weight: bold;
     }
     .project-item {
       margin-bottom: 20px;
@@ -173,12 +195,12 @@ h3, h4 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  filter: invert(45%) sepia(85%) saturate(3986%) hue-rotate(184deg) brightness(91%) contrast(88%);
+  /*filter: invert(45%) sepia(85%) saturate(3986%) hue-rotate(184deg) brightness(91%) contrast(88%);*/
 }
 
 .skills-images img {
   width: auto;
-  height: 30px;
+  height: 28px;
   object-fit: cover;
   border-radius: 5px;
 }
