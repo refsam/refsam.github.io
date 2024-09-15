@@ -1118,8 +1118,12 @@ section {
 @media (max-width: 768px) {
 
   .arsi{
-    height:300px;
+    height:200px;
     width: auto;
+  }
+  .arsi2{
+    width:300px;
+    height: auto;
   }
   .breadcrumbs .d-flex {
     display: block !important;
